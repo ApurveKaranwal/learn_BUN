@@ -1,4 +1,4 @@
-# proj1
+# Learning Bun (as it was recently written in rust)
 
 To install dependencies:
 
@@ -9,7 +9,7 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run projx.ts
 ```
 
 This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
