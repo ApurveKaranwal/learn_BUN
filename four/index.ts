@@ -2,7 +2,7 @@ const server = Bun.serve({
     port: 3000,
     routes: {
         "/api/status": new Response('OK'),
-        "user/:id": (req) => {
+        "user/:id": (req) => { //:id is called route parameter, its a dynamic route
             return new Response(`Hello user ${req.params.id}`);
         },
         "/api/posts": {
